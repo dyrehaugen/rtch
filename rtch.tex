@@ -4,8 +4,8 @@
 %
 \documentclass[
 ]{book}
-\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
+\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
@@ -41,8 +41,7 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
+\usepackage{longtable,booktabs}
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -78,15 +77,12 @@
 \makeatother
 
 \renewcommand\chaptername{}
-\ifluatex
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{Technology}
 \author{Dyrehaugen Web Notebook}
-\date{2021-05-03}
+\date{2022-12-07}
 
 \begin{document}
 \maketitle
@@ -99,6 +95,71 @@
 \chapter{Technology}\label{technology}}
 
 \includegraphics{fig/zelda.jpg}
+
+\hypertarget{airplanes}{%
+\chapter{Airplanes}\label{airplanes}}
+
+\hypertarget{hydrogen-powered-airplanes}{%
+\section{Hydrogen Powered Airplanes}\label{hydrogen-powered-airplanes}}
+
+\emph{Galluchi}
+
+About one-third of total passenger traffic worldwide could be carried by planes burning liquid hydrogen, based on 2019 route data according to a \href{https://theicct.org/publication/aviation-global-evo-hydrogen-aircraft-jan22}{white paper}.
+
+In the most optimistic scenario, aircraft powered by \hspace{0pt}``green hydrogen'' --- produced using renewable electricity --- could reduce total emissions from passenger flights by 31 percent compared to projected emissions levels in 2050.
+
+Aviation contributes about 2.5 percent of global greenhouse gas emissions every year, primarily from burning petroleum-based jet fuel, or kerosene.
+
+Some airlines are already chipping away at their emissions by blending their kerosene with small amounts of \hspace{0pt}``sustainable aviation fuels,'' or SAFs, which are primarily made today from used cooking oils and discarded animal fats. Producers and policymakers are pushing to drastically \href{https://www.canarymedia.com/articles/air-travel/how-do-we-clean-up-air-travel-fuel-from-fast-food-grease-is-just-the-start}{boost adoption} of SAFs for commercial flights starting this decade, from about 26 million gallons every year to several billion gallons a year by 2030.
+
+Yet while plant- and waste-based alternatives can be cleaner to produce than jet fuel, they still emit carbon dioxide when burned in engines. Hydrogen does not --- hence the industry's intensifying efforts to develop H2-powered aircraft.
+Hydrogen planes could capture a huge share of shorter flights, but not long trips.
+
+\includegraphics{fig/airbus_hydrogen_concept.png}
+
+\emph{Figure: Airbus Concept Planes}
+
+Liquid hydrogen-powered aircraft would be less energy-efficient and have a shorter range than their kerosene-powered counterparts --- making them impractical for long-haul flights without more technology innovations. However, the zero-emission planes could still service a sizable share of passenger air travel.
+
+A turboprop burning liquid hydrogen could transport 70 passengers up to 1,400 kilometers.
+A narrow-body aircraft could carry 165 passengers up to 3,400 kilometers.
+Hydrogen planes could service about 97 percent of the turboprop market and 71 percent of the narrow-body market.
+
+Liquid hydrogen packs much less energy on a volume basis than kerosene does, so planes would have to store more of it to travel the same distance. The zero-carbon fuel must also be kept at around -250 degrees Celsius
+in heavy cryogenic tanks, further weighing down the plane. In the two Airbus designs, the main bodies of the planes are elongated to accommodate the extra fuel storage.
+
+The world will need to build gigatons' worth of additional wind, solar and other renewable energy capacity to produce enough green hydrogen to supply a zero-emission aircraft fleet --- as well as to power the energy-intensive process of liquifying that hydrogen.
+
+\textbf{Drop-in Fuels}
+
+``Drop-in'' fuels made of used cooking oil or forest residues represent less than 1 percent of total jet fuel demand. In Europe, aviation officials are pushing to accelerate the production and use of such fuels. The ReFuelEU Aviation proposal introduced last year would require that fuels delivered to European Union airports contain at least 2 percent SAF by 2025, ratcheting up to 63 percent by midcentury.
+
+\href{https://www.canarymedia.com/articles/air-travel/hydrogen-powered-planes-could-handle-a-third-of-passenger-air-travel-study-finds}{Galluchi (2022) Hydrogen-powered planes could handle a third of passenger air travel}
+
+\hypertarget{blockchain}{%
+\chapter{Blockchain}\label{blockchain}}
+
+Blockchain technology, the design of which was originally seen as facilitating an egalitarian, peer-to-peer sharing economy, is not necessarily neutral and apolitical.
+
+\hypertarget{land-registers}{%
+\section{Land Registers}\label{land-registers}}
+
+\emph{Daivirt}
+
+\begin{quote}
+There is a need for more empirical insights into the ways how blockchain-based property relations create new territories of accumulation and resistance, and intersect with existing legal and political systems.
+\end{quote}
+
+This essay explores the abstraction of blockchain as employed for formalizing land rights in emerging economies. Behind the seemingly neutral façade of the technology, diverse aspirational claims and narratives guide its implementation in different societies, shaped by particular histories and socio-political contexts. This highlights the need to explore blockchain-based land registries as distributed knowledge infrastructures, uncovering their broader embeddedness in older, non-digital modalities, and the ``peopled infrastructures'' of informal networks with their histories and cultural repertoires. As digital technologies can facilitate an illusion of enhanced visibility of some elements while obscuring others, I argue that more attention is needed to the role of broader colonial legacies and enduring North-South inequalities that frequently remain backgrounded in the adoption of such technologies.
+
+An increasing number of governments are investigating the prospects of transferring their land registries to blockchain.
+Blockchain applications are explored as enabling the formalization of property rights in the countries of the Global South, as well as providing more efficient coordination of real property markets in the Global North. Blockchain registries have several advantages as compared to centralized digital or paper-based databases. Records on blockchain are distributed and verified by a multitude of nodes in a peer-to-peer digital network, affording them more transparency and resilience. As new additions to the chain of blocks are cryptographically time-stamped, this makes tampering or accidental data loss less likely. Auto-executing ``smart contracts'' that transform legal agreements into code could mediate contracts
+
+Blockchain-based digitalization of land records should be viewed within a broader framework of land tenure formalization in the Global South, where land titling has been advocated as enabling economic development by turning land into tradable asset and a source of credit. Contrary to the expectations of the proponents of neoliberal land reforms, recent land titling initiatives in Africa and Latin America have fueled speculative investment and land concentration.
+
+Many communities in the Global South follow local, alternative rules of property, where land is held under customary tenure and managed as part of a complex system of obligations and debts within a broader kin or territorial group. Reforms that introduce exclusive land rights may exacerbate political conflicts especially in unstable and transitional settings.
+
+\href{https://developingeconomics.org/2021/05/20/land-property-technology-interrogating-an-infrastructural-promise/}{Daivirt (2021) Land, property, technology: interrogating an infrastructural promise}
 
 \hypertarget{concrete}{%
 \chapter{Concrete}\label{concrete}}
@@ -114,6 +175,148 @@ A 2018 report suggested concrete contributes up to 8 per cent of the world's CO2
 It also requires phenomenal amounts of water, sucking up around a tenth of all water used in industry -- often in areas with critical water shortages.
 
 \href{https://www.independent.co.uk/climate-change/news/wood-construction-concrete-steel-climate-b1796342.html}{Cockburn}
+
+\textbf{Major construction firms team up to get the carbon out of concrete}
+
+\emph{Canary Media}
+
+Engineers and architects can reduce the proportion of cement in a number of ways.
+One is to use higher-quality aggregate that imparts more structural integrity to the concrete that's made with it.
+
+Another is by using what's called \hspace{0pt}``supplementary cementitious materials'' to replace a portion of the cement used in different mixes of concrete. Fly ash from coal plants and slag from steel mills are the most common alternatives and are being put to use by some major cement and concrete companies such as Cemex. But rice husks, ground glass and several other alternatives can replace anywhere from 10 to 40 percent of the cement.
+
+\href{https://www.canarymedia.com/articles/clean-industry/major-construction-firms-team-up-to-get-the-carbon-out-of-concrete}{Canary media (2022) Major construction firms team up to get the carbon out of concrete}
+
+\hypertarget{growing-limestone-from-algae}{%
+\section{Growing limestone from algae}\label{growing-limestone-from-algae}}
+
+\emph{Simpkins}
+
+To make portland cement, the most common type of cement, limestone is extracted from large quarries and burned at high temperatures, releasing large amounts of carbon dioxide.
+Replacing quarried limestone with biologically grown limestone, a natural process that some species of calcareous microalgae complete through photosynthesis (just like growing coral reefs), creates a net carbon neutral way to make portland cement. In short, the carbon dioxide released into the atmosphere equals what the microalgae already captured.
+
+\href{https://www.colorado.edu/today/2022/06/23/cities-future-may-be-built-algae-grown-limestone}{Simpkins (2022) Cities of the future may be built with algae-grown limestone}
+
+\hypertarget{mud-constructions}{%
+\section{Mud Constructions}\label{mud-constructions}}
+
+\emph{Lewis}
+
+Concrete's heat-retaining properties are all wrong for the Senegalese climate.
+Yet concrete has become the ``traditional'' building material in a country.
+
+At least four distinctive mud-construction techniques persist. In the north, where there's not much rain, people build houses with banco, a kind of adobe made with sun-dried bricks; in the forested areas of the south, builders use timber frames to create wattle-and-daub structures, or they hand-mold earthen buildings and top them with steep, overhanging roofs to keep rain away from the walls. For generations, Senegalese builders have used mud to construct not only small houses and granaries but multistory houses and imposing mosques.
+
+Raw-earth-based building materials, such as adobe, rammed earth, and the compressed-earth blocks have more thermal inertia than concrete, which means they attenuate heat and cold more efficiently and reduce the need for so much air-conditioning.
+
+Resistance to mud construction in modern Senegal goes beyond practical concerns: Earth-based materials are widely considered a symbol of poverty, a last recourse for those with no other shelter.
+
+The accessibility of air-conditioning has created a kind of architectural laziness, because buildings no longer need to rely on design to stay cool.
+
+In the nearby village of Ngawlé, Ousmane Mbodj and his family invited me into their \emph{banco} house, and as soon as I stepped inside, my body relaxed. I had no instruments to measure the difference in temperature, but the change felt like a balm.
+Thick walls provide natural insulation from the sun, while the limited number of small windows helps the interior stay cool. Outside, thatch-covered verandas or perforated walls create shade and can be used as exterior rooms.
+
+Roof leaks during the rainy season because the local mice like to eat its mud and hay.
+
+In the center of Podor, the local département is constructing a mud-brick administrative building using the Nubian-vault technique. Originating from ancient Egypt, the method uses arches to create self-supporting adobe structures. The technique was revived in the 1940s by the Egyptian architect Hassan Fathy, who attempted to create a whole village of Nubian-vault structures on the banks of the Nile River. That project was never completed, but his approach, which he documented in his book Architecture for the Poor, created new interest in mud construction across the globe. In 2000, a French nonprofit called the Nubian Vault Association streamlined the technique and started training workers to employ it throughout West Africa---starting in Burkina Faso and expanding to Mali, Benin, Ghana, and Senegal.
+
+An earth-construction boom is happening along the sunny coast south of Dakar. Here, earth construction is chosen not just by those with modest budgets and few other options, but by wealthier families with a taste for innovation and bespoke designs.
+
+They had planned to build nearly 12-inch-thick walls for their thermal advantages, but the small lot could only accommodate 9-inch-thick walls. To make up for the difference, they positioned each row of blocks so that it protruded slightly over the row below it, resulting in walls that essentially create their own shade. The walls' textured surface gives them a unique appearance---a style inspired by substance. Though houses like this are far too expensive for most, it illustrates both the practical and aesthetic advantages of mud construction.
+
+Show people that we can build with local materials that will be much more comfortable and much cheaper than concrete.
+
+\href{https://www.theatlantic.com/science/archive/2022/07/senegal-dakar-construction-mud-architecture/661405/}{Lewis (2022) The Future of Mud}
+
+\hypertarget{military-technology}{%
+\chapter{Military Technology}\label{military-technology}}
+
+\emph{Smith}
+
+Military technology is a hugely important area of innovation, and yet it generally results in things getting blown up and society going to hell for a while.
+Also worrying is how many of the new military technologies are specialized for use off the battlefield.
+
+In 2014, I wrote a post in which I argued that drone dominance of the battlefield would change human society forever:
+
+\begin{verbatim}
+[I]magine yourself back in 1400. In that century (and the 10 centuries before it), the battlefield was ruled not by the infantryman, but by the horse archer—a warrior-nobleman who had spent his whole life training in the ways of war. Imagine that guy’s surprise when he was shot off his horse by a poor no-count farmer armed with a long metal tube and just two weeks’ worth of training. Just a regular guy with a gun.
+
+That day was the end of the Middle Ages and the beginning of modernity. For centuries after that fateful day, gun-toting infantry ruled the battlefield. Military success depended more and more on being able to motivate large groups of (gun-wielding) humans, instead of on winning the loyalty of the highly trained warrior-noblemen. But sometime in the near future, the autonomous, weaponized drone may replace the human infantryman as the dominant battlefield technology. And as always, that shift in military technology will cause huge social upheaval.
+\end{verbatim}
+
+Six years later, I watched my vision come true. In the Second Nagorno-Karabakh War, Azerbaijan used drones --- purchased cheaply and easily from Turkey and Israel --- to crush the vaunted Armenian army in a short space of time. Armenian troops were renowned as masters of infantry warfare and heavy weaponry, but their tanks, missile launchers, artillery, and transport vehicles were sitting ducks for their foes' cheap disposable drones. No matter how well they concealed their vehicles, the drones could easily spot and destroy them. You can see the incredible toll catalogued at the blog Oryx, with full documentation of each destroyed vehicle.
+
+This should be as big a wakeup call as the Battle of Taranto or the firebombing of Guernica. Drones have changed warfare.
+
+Unless electronic countermeasures or directed energy weapons become very good, very fast, drones will scour the battlefield of human-controlled heavy weaponry at a very low cost, with little risk of life. And they create another battlespace to be fought over --- the low-altitude air, where traditional piloted aircraft no longer go (for fear of being shot down), where radars have trouble spotting threats.
+
+Already countries are racing to build or buy cutting-edge drone systems; this is a true arms race. But we won't know who wins that race unless and until there is a major war.
+
+But the real transformative drone technology might still be in its infancy.
+
+The drones that won the war for Azerbaijan are traditional fossil fuel powered aircraft. Advances in Li-ion batteries have given rise to small, cheap, difficult-to-see, difficult-to-shoot quadcopters. Already, militaries are finding creative uses for these: The IDF (Israel Army) has been using drones to drop tear gas on protesters in Ramallah and the West Bank.
+
+Another example is the UK, whose air force is \href{https://www.thedrive.com/the-war-zone/36950/raf-tests-swarm-loaded-with-britecloud-electronic-warfare-decoys-to-overwhelm-air-defenses}{testing networked swarms of drones} to overwhelm radar systems.
+
+The disturbing possibility is that nations might simply exist in a state of low-grade cyberwarfare at all times, attempting to disable each other's infrastructure.
+
+What COVID-19 made people realize was that you don't need to create some super-deadly virus in order to severely disrupt a society. All you need is a very contagious disease with a mortality rate high enough to scare people. If you're a very very unscrupulous country, you could surreptitiously vaccinate most of your population against this disease and then unleash it on the world.
+
+\href{https://www.americansecurityproject.org/crispr-is-making-bioweapons-more-accessible/}{Crispr technology} and \href{https://cen.acs.org/biological-chemistry/synthetic-biology/Synthetic-biology-enable-bioweapons-development/96/i26}{DNA synthesis}, which are increasingly available to the public, might conceivably create a lot of weird bioweapons that act very differently to the viruses we're used to.
+
+Most of the modern military technologies led themselves to a very different kind of great-power war --- a war of constant sniping and harassment. Assassin drones, cyberattacks, info ops, and bioweapons raise the possibility of never-ending low-grade attacks that are below the threshold of massive retaliation.
+
+To forestall this, military strategists should try very hard to think of new, robust, sophisticated methods of deterrence. Deterrence is the key to peace; it's risky, but when it's successful, it makes military technology act as a protector of human life rather than a destroyer of it. If new technology makes deterrence impossible, it might condemn us to a future where everyone is always on the offense.
+
+\href{https://noahpinion.substack.com/p/the-future-of-war-is-bizarre-and}{Noah Smith}
+
+\hypertarget{shipping}{%
+\chapter{Shipping}\label{shipping}}
+
+\hypertarget{windships}{%
+\section{Windships}\label{windships}}
+
+\emph{Gallucci}
+
+This year's forecast for the global maritime industry looks particularly breezy. Sails, kites, wings and tubes are all set to appear on cargo vessels over the course of 2022, harnessing wind energy to reduce ships' use of dirty diesel fuels. Experts count nearly two dozen new projects in the works as shipping companies look to limit emissions from carrying cargo by sea.
+
+\href{https://www.canarymedia.com/articles/sea-transport/sailing-into-2022-with-wind-powered-cargo-ships}{Gallucci (2022) Sailing into 2022 with wind-powered cargo ships}
+
+\hypertarget{social-media}{%
+\chapter{Social Media}\label{social-media}}
+
+\hypertarget{twitter}{%
+\section{Twitter}\label{twitter}}
+
+\emph{Noahpinion}
+
+\textbf{Dimensions}
+
+Two years ago, my friend Eugene Wei wrote a blog post called \href{https://www.eugenewei.com/blog/2019/2/19/status-as-a-service}{``Status as a Service (Staas)''}, which laid out what has become the canonical framework for thinking about social media. Eugene basically divides social media's function into three dimensions --- utility (i.e., direct usefulness), entertainment value, and social capital. He spends much of the post discussing the third of these --- the way social networks create new ways for people to gain status and respect. Get the most Twitter follows, or the most Facebook likes, etc., and you're somebody. Social media has democratized celebrity; anyone can be an influencer.
+
+Anyone, but not \emph{everyone}. Just as most people can't become Hollywood stars, most people can't become social media influencers. But unlike in the old days, when people would obsess over Hollywood actors from afar, nowadays social media allows people to come in contact with their heroes directly. And no network facilitates this more than Twitter.
+
+I continue to believe that Twitter, alone among all social networks created thus far, represents something truly new under the sun. Facebook and LinkedIn more-or-less preserves the networks of personal friendship, hobby interest, and professional networking that exist offline. Instagram maintains the celebrity-fan dynamic, with influencers dominating their pages at an Olympian remove. But on Twitter, anyone can talk directly to anyone at any time, and, short of blocking them, the person they're talking to can't stop you from talking to them.
+
+On other social networks, if you created a post, you can delete comments that you don't like; you are the moderator of your own threads. But on Twitter you can't. There is a ``hide replies'' function, but it just sends the replies to a special ``hidden replies'' section where anyone can peruse them at will. Even if you block someone who replies to you, their reply-tweet remains.
+
+These two quirks of Twitter --- free direct communication and no ability to regulate replies --- make all the difference. Suddenly, people can talk directly to any celebrity, any politician, any journalist or activist or influencer of any kind. And the person they're talking to can't stop them.
+
+Being able to reply to high-status people, whether they want you to or not, is a heady status-conferring experience. You can say mean shit to the most famous Hollywood movie star, and there's nothing he can do about it. Or you can say something nice, and hopefully get a reply or a shout-out. This puts you on a plane of near-equality with people who otherwise tower over the social landscape.
+
+Near-equality, but not equality!
+This can be maddening. Twitter creates the instantaneous illusion of social equality between influencers and normal people.
+
+That process, which repeats itself many millions of times every day, creates some very unusual social dynamics. For example, there's ``the ratio'', in which a mob of reply-tweeters try to leave someone with more replies than likes. It feels heady to be part of a ratio-mob, as evidenced by the people who reply with ``just here for the ratio'', or who re-state a rebuttal that many others have already made. (Some people have invented a second type of ``ratio'' that doesn't depend on being part of a mob: writing a reply-tweet that gets more likes than the original tweet it's replying to. I've seen Zoomers in group chats bragging about the famous people they managed to ``ratio'' this way.)
+
+By bringing people much closer together in social status, Twitter emphasizes the intractable gaps that remain.
+
+As Twitter ages and the distribution of status gets even more frozen in, Twitter will have to rely on status anxiety more and more to keep new users engaged.
+They've never taken the crucial step of allowing people to actually drop reply-tweets from their threads or untag themselves from other people's tweets. Doing that might make Twitter a lot nicer of a place
+
+Thus, Twitter will continue to be the place where Americans go to scream at strangers --- where status is conferred not just by little snippets of viral pseudo-wisdom, but by the ability to ridicule and attack those snippets. We should probably think long and hard about whether it's a good idea to have our public discourse dominated and directed by a platform with that basic dynamic.
+
+\href{https://noahpinion.substack.com/p/status-anxiety-as-a-service}{Noahpinion (2021) Status Anxiety as Service}
 
 \hypertarget{steel}{%
 \chapter{Steel}\label{steel}}
@@ -169,6 +372,51 @@ Furthermore, Boston Metal's electrolysis cells are so clean that developers woul
 Because steel constitutes just a small portion of most products of which it's a component, that price premium is likely to be small. For example, the International Energy Agency estimates that using green steel would increase the cost of a midsized car by around 0.1\%
 
 \href{https://www.canarymedia.com/articles/joe-bidens-green-new-steel/}{CanaryMedia}
+
+\hypertarget{supply-chain}{%
+\chapter{Supply Chain}\label{supply-chain}}
+
+\emph{Smith}
+
+Ocean freight costs alone add 5\% to 10\% to the cost of everything we buy, and remember, 90\% of the stuff we buy is shipped on a container ship. The globalized supply chain and shipping containers have brought down the cost of shipping goods and manufacturing by close to 90\% over the last 50 years.
+
+In America, the ports are owned by the local city that they're in. Therefore, they're not managed as a strategic national asset, which they clearly are.
+
+We've under invested in our supply chain infrastructure for over 20 years.
+
+In hindsight, the signs were there for years. Almost no logistics companies can show you where your freight is in real-time on a map. Most data is exchanged in unstructured email messages with attachments. There are almost no logistics APIs to speak of.
+
+We're going to get sub-optimal outcomes if you don't invest in technology. If we don't have robotics, if we don't have systems that are better at managing appointments for managing pickups and returns of containers at ports, if we don't have better safety mechanisms (some of these are incredibly hazardous jobs and robots would be far safer), it's going to take many years, not months to fix this crisis. Technology and automation have helped modernize and increase the efficiency of ports in other countries like the port of Rotterdam in the Netherlands, but that's because it's managed as a strategic asset for the country. It has been a fully automated operation for over 20 years so the technology exists, but we still have a lack of investment to implement those changes in the United States.
+
+\emph{N.S.: What should the Biden administration have done to overwhelm supply chain bottlenecks early on in the crunch? What should the administration be doing now?}
+
+R.P.: I think many of us imagined that we live in a world where there's a wizard behind the box. That there's actually somebody in charge of all of this, and that that somebody must have made a mistake. And of course, it must be the president of the United States. But that's not actually the world that we live in. It's a market-based system. We're lucky to live in an economy that's built on the principles of free enterprise, and so while it's easy to cast blame and point fingers at the administration, we have to recognize that they're not really in charge of all of these things. They didn't create this situation and I'm not 100\% convinced that they're the ones that are going to be best equipped to solve the problem.
+
+\emph{N.S.: Was the global economy simply over-engineered? Did we optimize supply chains for efficiency at the cost of resilience, like a machine with tolerance gaps that are too small? And if so, should we recalibrate going forward, to leave more slack in the system in case of future crises?}
+
+R.P.: In my opinion, what's caused all the supply chain bottlenecks is modern finance's obsession with Return on Equity (ROE). To show great ROE, almost every CEO stripped their company of all but the bare minimum of assets. ``Just-in-time'' everything with no excess capacity, no strategic reserves, no cash on the balance sheet and minimal investment in R\&D.
+We stripped the shock absorbers out of the economy in pursuit of better short-term metrics.
+Large businesses are supposed to be more stable and resilient than small ones, and an economy built around giant corporations like America's should be more resilient to shocks. However, the obsession with ROE means that no company was prepared for the inevitable hundred-year storms. Now as we're facing a hundred-year storm of demand, our infrastructure simply can't keep up.
+And let's not forget the human aspect of the workforce that makes this all happen. A lot of companies in the industry haven't invested in taking care of their people, especially during market downturns, so now they can't staff up quickly to meet surging demand.
+
+The Dutch government has pushed for infrastructure innovation for decades and has a great working relationship with unions and employers through a \href{https://en.wikipedia.org/wiki/Polder_model}{polder model}, which is based on consensus. This effort was started in the eighties. They used the polder model to successfully implement solutions developed by Delft University of Technology.
+
+There were two reasons they were able to accomplish this:
+
+\begin{itemize}
+\item
+\begin{verbatim}
+      The Port of Rotterdam, a government-owned commercial entity running the port, had this vision way before other countries did as logistics is a key source of GDP in the Netherlands.
+\end{verbatim}
+\item
+\begin{verbatim}
+      They had a proper, documented approach to getting buy-in from multiple stakeholders through a polder model. The polder model is a method of consensus decision-making, based on the acclaimed Dutch version of consensus-based economic and social policy making in the 1980s and 1990s. The model is characterized by the cooperation between employers' organizations, labor unions and the government with a central forum to discuss labor issues (with a long tradition of consensus). This model helped them defuse labor conflicts and avoid strikes. Similar models are used in Finland.
+\end{verbatim}
+\end{itemize}
+
+We should really explore why the U.S. can't do what many mature and rapidly-growing economies already have. Big structural changes are hard to make, but we should at least start somewhere. For example, new technology can be used to eliminate appointments at terminals and allow truck drivers to just show up and take the first available container with a mobile app telling them where to go. We've already built this technology and it's ready to go right now and we believe it could clear the backlog at the Long Beach/Los Angeles ports within 30 days. However, it requires changes to contracts of who's responsible for picking up which container and a lot of coordination between the private sector, trucking companies, importing businesses, warehouses, ports and ocean carriers. This type of coordination is inherently difficult for the private sector to coordinate, where each is looking out for their own best interests.
+
+\href{https://noahpinion.substack.com/p/interview-ryan-petersen-ceo-of-flexport}{Smith (2021) Interview: Ryan Petersen, founder and CEO of Flexport}
 
 \hypertarget{wood}{%
 \chapter{Wood}\label{wood}}
@@ -231,6 +479,44 @@ CLT is green, cost-effective, fast to install, requires less foundation, and res
 It is incorrect to say that CLT ``unlike steel'' remains structurally stable to high temperatures. Steel used in buildings retains at least 100\% of its cold strength up to about 360°°C. (It's actually stronger at around 150-300°C.) What is true is that its insulation properties causes wood to degrade more slowly when exposed to heat as the heat doesn't penetrate so fast. Which is why steam boilers are made out of steel and not wood
 
 \href{https://www.independent.co.uk/climate-change/news/wood-construction-concrete-steel-climate-b1796342.html}{Cockburn}
+
+\hypertarget{science}{%
+\chapter{Science}\label{science}}
+
+\hypertarget{science-slowdown}{%
+\section{Science Slowdown}\label{science-slowdown}}
+
+\emph{Noah Smith}
+
+\textbf{Low-hanging fruit and the rising cost of science}
+
+The basic idea of science stagnation is that the easiest discoveries happen first. 150 years ago, a monk sitting around playing with plants was able to discover some of the most fundamental properties of inheritance; now, biology labs are gigantic and hugely expensive marvels of technological complexity, and the NIH spends tens of billions of dollars every year. 400 years ago we had people rolling balls down ramps to study gravity; now we study gravity with billion-dollar gravitational wave detectors that require the efforts of thousands of highly trained scientists. And so on.
+
+In 2020, four economists --- Nicholas Bloom, Charles I. Jones, John Van Reenen, and Michael Webb --- published a \href{https://web.stanford.edu/~chadj/IdeaPF.pdf}{paper} quantifying this principle, and the results are deeply disturbing. Across a wide variety of fields, they found that the cost of progress has been rising steadily; more and more researchers (or ``effective researchers'') are required for each incremental advance. This is exactly what a ``low-hanging-fruit'' model of science would predict.
+
+\includegraphics{fig/researchers_TFP.png}
+
+The idea of increasingly expensive research, unlike the other stagnationist arguments I addressed in earlier posts, is very hard to rebut --- the theory is simple and powerful and the data is comprehensive and clear. But there are a few caveats to note here.
+
+Important discoveries become more important as they age. Quantum mechanics was certainly cool stuff back in the 1920s, but it wasn't until later that things like quantum field theory built on it, or engineering applications were developed that made use of it.
+
+Science is progressive like that; each discovery is supported by the discoveries that came before it (in Newton's words, it ``stands on the shoulders of giants''). Thus, each new discovery makes the older discoveries that support it that much more important.
+
+The upshot here is that even if science is getting more expensive, we can still afford to spend more resources and sustain it for a while.
+
+\href{https://www.nber.org/papers/w27863}{Jones and Summers} make a simple model of the economy in which R\&D spending drives growth, plug recent numbers for our real economy into that model, and then ask how much it would reduce growth if we were to stop spending on R\&D. The answer is: A lot.
+
+R\&D is a reliable money-printing machine: you put in a dollar, and you get back out much more than a dollar.
+
+\href{https://mattsclancy.substack.com/p/an-example-of-high-returns-to-publicly}{Clancy} links us to a bit of evidence that R\&D spending still drives progress forward, explaining the results of several papers that find that government research grants to small businesses were very effective at creating patentable inventions in both the U.S. and the EU.
+
+\includegraphics{fig/federal_and_business_RD.jpeg}
+
+Business is running fast enough to stay in place in terms of R\&D, but the government isn't even doing that much.
+
+The upshot of all this is that while the increasing cost of science is a real and significant concern, it doesn't mean it's all stagnation from here on out. We still probably have enough money to accelerate technological progress once again, if we're willing to spend it.
+
+\href{https://noahpinion.substack.com/p/answering-the-techno-pessimists-complete}{Noah Smith (2021)}
 
 \hypertarget{part-appendices}{%
 \part{Appendices}\label{part-appendices}}

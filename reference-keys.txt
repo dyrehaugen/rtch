@@ -25,3 +25,4 @@ ai
 about
 links
 news
+sitelog

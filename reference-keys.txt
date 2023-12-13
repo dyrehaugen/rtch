@@ -12,6 +12,8 @@ ethylene
 hydrogen
 nanocell-fueltanks
 military-technology
+semiconductors
+n2---two-nanometer-chips
 shipping
 windships
 social-media

@@ -9,6 +9,8 @@ concrete
 growing-limestone-from-algae
 mud-constructions
 ethylene
+graphene
+graphene-microchips
 hydrogen
 nanocell-fueltanks
 military-technology

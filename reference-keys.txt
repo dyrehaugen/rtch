@@ -26,7 +26,10 @@ wood
 transparent-wood
 science
 science-slowdown
+technology-adoption
+gartner-hype-cycle
 ai
+ais-environmental-impact
 about
 links
 news
